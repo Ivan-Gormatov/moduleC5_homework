@@ -1,0 +1,49 @@
+body {
+  background: #fff5f6
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  width: 950px;
+}
+
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 15px 0;
+}
+
+.card {
+  width: 200px;
+  margin: 15px;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+.inpt {
+  width: 50px;
+  margin: 15px 10px;
+  padding: 5px 0;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: green;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
